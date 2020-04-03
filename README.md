@@ -1,4 +1,4 @@
-# my-web-app
+# cross-domain-web-app
 
 ## Technologies (considering):
 
@@ -21,7 +21,7 @@
 ### iframes
 
 iframes are used to embed HTML documents within a website.
-  - Offer isolated environemnt unaffected by global JS,CSS
+  - Offer isolated environment unaffected by global JS,CSS
   - Can use most [global event handlers](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers)
   - To send messages between parent and the iframe use `postMessage` function [documented here](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
   - iframes increase risk of potential vulnerability (utilize `sandbox` and `allow` attributes)
