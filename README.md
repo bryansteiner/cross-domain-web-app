@@ -36,14 +36,15 @@ Responsive iframes (3 options)
 [Negative features of iframes (relevant)](https://medium.com/@bluepnume/iframes-are-just-terrible-heres-how-they-could-be-better-974b731f0fb4)
   - Communication is tricky: messages are fire-and-forget with not error handling or responses (can't pass interesting data types)
   - Problematic security
-  
+
 Potential Alternatives
   - [Zoid](https://medium.com/@bluepnume/introducing-xcomponent-seamless-cross-domain-web-components-from-paypal-c0144f3e82bf)
-    - Used by PayPal because one of its main value-props is security.
-  - [Post-Robot](https://medium.com/@bluepnume/introducing-post-robot-smart-cross-domain-messaging-from-paypal-bebf27c8619e)
+    - [Zoid](https://github.com/krakenjs/zoid) is used by PayPal because one of its main value-props is security.
+    - Successor idea to [Post-Robot](https://medium.com/@bluepnume/introducing-post-robot-smart-cross-domain-messaging-from-paypal-bebf27c8619e) and [xcomponent](https://github.com/xcomponent/xcomponent) (cross-domain components)
   - [Lecture on Cross-Domain Web Components](https://vimeo.com/180426382)
     - Integrate really well with React because of props that communicate with data-down/actions-up (bidirectional)
     - Encapsulation of components
+    - Introduces [Beaver Logger](https://github.com/krakenjs/beaver-logger) which is a useful front-end logger to do logging on the client side in the same way you do on the server, without worrying about sending off a million beacons. You can quickly get an idea of what's going on on your client, including error cases, page transitions, or anything else you care to log!
 
 
 ## Setup Phase:
