@@ -16,7 +16,7 @@
   - We will be investigating iframe elements to render embedded webpages and considering the drawbacks
   - We will explore new technologies that address the issues with iframes such as cross-domain messaging and security
 
-## Notes
+## Research phase:
 
 ### iframes
 
