@@ -36,6 +36,7 @@ Responsive iframes (3 options)
 [Negative features of iframes (relevant)](https://medium.com/@bluepnume/iframes-are-just-terrible-heres-how-they-could-be-better-974b731f0fb4)
   - Communication is tricky: messages are fire-and-forget with not error handling or responses (can't pass interesting data types)
   - Problematic security
+  
 Potential Alternatives
   - [Zoid](https://medium.com/@bluepnume/introducing-xcomponent-seamless-cross-domain-web-components-from-paypal-c0144f3e82bf)
     - Used by PayPal because one of its main value-props is security.
@@ -43,7 +44,6 @@ Potential Alternatives
   - [Lecture on Cross-Domain Web Components](https://vimeo.com/180426382)
     - Integrate really well with React because of props that communicate with data-down/actions-up (bidirectional)
     - Encapsulation of components
-    -
 
 
 ## Setup Phase:
