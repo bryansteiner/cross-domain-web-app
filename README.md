@@ -29,10 +29,10 @@ iframes are used to embed HTML documents within a website.
     - An empty attribute (i.e. `sandbox=""`) will fully sandbox iframe --> JS cannot be executed + priveleges restricted
   - Do not use iframes excessively without monitoring whats going on --> affect performance --> use lazy loading to load them only when require --> `loading="lazy"`
 Responsive iframes (3 options)
-  1. Wrap your iframe in an HTML element and add CSS properties --> [article](As more people browse the web using their phones, it is essential to make sure every one of your interfaces is responsive.)
-  2. Make iframe responsive by dealing with aspect ratios --> [article](https://css-tricks.com/responsive-iframes/)
-  3. Use the [iframe Resizer Library](As more people browse the web using their phones, it is essential to make sure every one of your interfaces is responsive.)
-  - TODO: Need to investigate the pros and cons of each approach
+    1. Wrap your iframe in an HTML element and add CSS properties --> [article](As more people browse the web using their phones, it is essential to make sure every one of your interfaces is responsive.)
+    2. Make iframe responsive by dealing with aspect ratios --> [article](https://css-tricks.com/responsive-iframes/)
+    3. Use the [iframe Resizer Library](As more people browse the web using their phones, it is essential to make sure every one of your interfaces is responsive.)
+    - TODO: Need to investigate the pros and cons of each approach
 [Negative features of iframes (relevant)](https://medium.com/@bluepnume/iframes-are-just-terrible-heres-how-they-could-be-better-974b731f0fb4)
   - Communication is tricky: messages are fire-and-forget with not error handling or responses (can't pass interesting data types)
   - Problematic security
